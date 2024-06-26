@@ -5,74 +5,130 @@ body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
+  padding: 0;
+  margin: 0;
+  line-height: 1.6;
 }
 
-/* Headings */
-h1,
-h2,
-h3 {
-  font-family: "Playfair Display", Times, serif;
-  text-align: center;
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
 }
 
-/* Header */
-header {
-  text-align: center;
+header h1 {
+  margin: 0;
+  font-family: "Playfair Display", serif;
+  font-size: 1.8em;
 }
 
-/* Containers */
-div {
-  background-color: #eae2b7;
-  margin: auto;
-  width: 600px;
-}
-
-article {
-  padding: 50px 0;
-}
-
-article div {
-  text-align: center;
-  width: 100%;
-}
-
-/* Paragraphs */
-p {
-  line-height: 1.5;
-}
-
-/* Links */
-a:link {
-  color: #d62828;
-}
-
-a:hover {
-  color: #f77f00;
+nav {
+  display: flex;
+  gap: 10px;
 }
 
 nav a {
-  padding-left: 20px;
+  color: #d62828;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/* Images */
-img {
-  width: 100%;
-  max-width: 200px;
-  height: auto;
+nav a:hover {
+  color: #f77f00;
 }
 
-.image-circle {
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #eae2b7;
+}
+
+article {
+  margin-bottom: 40px;
+}
+
+article h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: flex-end;
+  margin-left: auto;
+  max-width: 600px;
+}
+
+.about-container img {
+  margin-right: 25%;
+  margin-top: -15%;
+  max-width: 150px;
   border: 2px solid #003049;
   border-radius: 50%;
 }
 
-/* Footer */
-footer {
-  text-align: center;
+.about-info {
+  margin-right: -10%;
+  max-width: 600px;
+  text-align: left;
 }
 
-/* Other page elements */
+.about-info ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 0;
+}
+
+.about-info ul li {
+  margin-left: -20px;
+}
+
+.background-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 20px;
+}
+
+.portfolio-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.portfolio-item section {
+  flex: 1;
+  max-width: 30%;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #003049;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid #003049;
+  margin-top: 40px;
+}
+
 hr {
-  border: 1px solid black;
+  border: 1px solid #003049;
+  margin: 40px 0;
 }
