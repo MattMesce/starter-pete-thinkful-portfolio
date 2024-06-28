@@ -68,7 +68,7 @@ article h2 {
 }
 
 .about-container img {
-  margin-right: 25%;
+  margin-right: 25% 5;
   margin-top: -15%;
   max-width: 150px;
   border: 2px solid #003049;
@@ -124,9 +124,10 @@ ul {
 
 footer {
   text-align: center;
-  padding: 20px 0;
-  border-top: 2px solid #003049;
-  margin-top: 40px;
+  padding: 20px;
+  border-top: 2px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 hr {
