@@ -18,7 +18,7 @@ body {
   gap: 20px;
   padding: 10px 20px;
 }
-
+/* header and nav were horizontally alligned */
 header h1 {
   margin: 0;
   font-family: "Playfair Display", serif;
@@ -58,18 +58,23 @@ article h2 {
   text-align: center;
 }
 
+.about-container h3 {
+  font-family: "Playfair Display", serif;
+  margin-left: 50px
+  }
+
 .about-container {
   display: flex;
   align-items: center;
   gap: 20px;
   justify-content: flex-end;
-  margin-left: auto;
+  margin-left: 300px;
   max-width: 600px;
 }
 
 .about-container img {
-  margin-right: 25% 5;
-  margin-top: -15%;
+  margin-left: -20%;
+  margin-top: -25%;
   max-width: 150px;
   border: 2px solid #003049;
   border-radius: 50%;
@@ -79,30 +84,35 @@ article h2 {
   margin-right: -10%;
   max-width: 600px;
   text-align: left;
+  padding-left: 35px
 }
 
 .about-info ul {
   list-style-type: disc;
-  padding-left: 20px;
-  margin: 0;
+  padding-left: 35px;
 }
 
 .about-info ul li {
   margin-left: -20px;
 }
 
-.background-section {
+/* background section has been moved below About section */
+.background-section h3 {
+  font-family: "Playfair Display", serif;
   text-align: center;
   margin-top: 40px;
 }
 
 ul {
   list-style-position: inside;
-  margin: 0;
+  text-indent: 25px;
   padding: 20px;
 }
 
+/* updated portfolio description font size */
 .portfolio-item {
+  font-size: 14px;
+  font-family: "Playfair Display", serif;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
@@ -115,7 +125,7 @@ ul {
   text-align: center;
   margin: 0 10px;
 }
-
+ /* horizontally alligned portfolio images*/
 .portfolio-item img {
   width: 100%;
   height: auto;
